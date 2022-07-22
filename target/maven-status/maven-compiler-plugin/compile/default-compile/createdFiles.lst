@@ -1,0 +1,14 @@
+captchaplugin\captchaplugin\Utils\Serializer.class
+captchaplugin\captchaplugin\Utils\MapUtils$1.class
+captchaplugin\captchaplugin\ConfigUtils\ConfigUtils.class
+captchaplugin\captchaplugin\Utils\RandomColor.class
+captchaplugin\captchaplugin\Utils\URLsFactory.class
+captchaplugin\captchaplugin\CaptchaPlugin.class
+captchaplugin\captchaplugin\Commands\ValidateCommand.class
+captchaplugin\captchaplugin\Utils\InitValidation.class
+captchaplugin\captchaplugin\Commands\ValidateAnswerCommand.class
+captchaplugin\captchaplugin\ConfigUtils\DefaultConfigUtils.class
+captchaplugin\captchaplugin\Utils\GenerateValidationList.class
+captchaplugin\captchaplugin\Data\PlayersOnValidation.class
+captchaplugin\captchaplugin\Handlers\ValidationHandler.class
+captchaplugin\captchaplugin\Utils\MapUtils.class

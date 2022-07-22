@@ -1,0 +1,11 @@
+name: CaptchaPlugin
+version: '${project.version}'
+main: captchaplugin.captchaplugin.CaptchaPlugin
+api-version: 1.16
+commands:
+  validate:
+    description: Test validation command
+    usage: /<command>
+  validateAnswer:
+    description: Test validation command
+    usage: /<command>
