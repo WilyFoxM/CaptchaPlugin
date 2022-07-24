@@ -61,8 +61,7 @@ public class InitValidation {
         PlayersOnValidation.answers.put(player, answer);
 
         FileConfiguration data = ConfigUtils.get();
-        System.out.println(data.getString(player.getUniqueId().toString() + "_loc"));
-        System.out.println(Objects.equals(data.getString(player.getUniqueId().toString() + "_loc"), "none"));
+
         if (data.getString(player.getUniqueId().toString() + "_loc") == null || Objects.equals(data.getString(player.getUniqueId().toString() + "_loc"), "none")) data.set(player.getUniqueId().toString() + "_loc", Serializer.stringFromLocation(player.getLocation()));
 
         Map<Integer, ItemStack> inv = new HashMap<>();
